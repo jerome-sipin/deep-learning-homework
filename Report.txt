@@ -1,0 +1,18 @@
+Data Preprocessing:
+Targets: Successful
+Features: Application type and classification primarily, and the other non EIN/Name columns
+Non-features to be removed: EIN and Name columns
+
+
+Compiling, Training, Evaluating:
+For the first run, I used all of the suggested parameters for the model (such as layers, or neurons), as
+they were provided in the starter code.
+
+For the second run, I tried to (1) drop less columns from both the application types
+and classifications, (2) use less neurons, but more layers, (3) use a different optimizer during
+compilation, and (4) use less epochs. I did these because I felt that if there was more data to use,
+but less trials, then there would be more chances of getting the desired result. However, no matter
+what I tried, the result only changed slightly.
+
+
+Summary:
