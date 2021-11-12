@@ -16,3 +16,12 @@ what I tried, the result only changed slightly.
 
 
 Summary:
+The deep learning model gives a 72.6297% accuracy for the predictions. This was gained from
+attempting a number of optimizations, including dropping less columns, allowing for more data,
+using more layer, using a different optimizer, and using less epochs.
+
+An autoencoder-type model might be suited to handle this type of problem. It is designed for
+use in large datasets and is useful for making recommendations, which is what Alphabet Soup Charity is
+looking for in this problem. Looking to the TensorFlow documentation for an autoencoder model,
+this may be simple enough to implement by simply changing the code for the model creation and compilation.
+https://towardsdatascience.com/6-deep-learning-models-10d20afec175
